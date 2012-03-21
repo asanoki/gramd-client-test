@@ -11,7 +11,7 @@
 
 int main(int argc, char **argv) {
 	gramd_connection * handle;
-	gramdDebugMode(0);
+	gramdDebugMode(1);
 
 	if (!(handle = gramdOpen("127.0.0.1", 45000)))
 		return 0;
